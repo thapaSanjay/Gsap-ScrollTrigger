@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
             trigger: ".full-width-image-block",
             start: "top top", // Adjust this based on when you want the animation to start
             end: "bottom top", // This can also be adjusted for the desired scroll range
-            scrub: 5,
+            scrub: 2,
             // markers: true,
         },
         transform: "translate(0px, -66px)",
