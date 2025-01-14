@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GSAP Scroll Animation</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="app.js"></script>
+
+</head>
+<body>
+  <div class="spacer"></div>
+  <div class="full-width-image-block">
+    <div class="full-width-image-block__grid">
+      <div class="full-width-image-block__box" style="translate: none; rotate: none; scale: none; transform: translate(0px, 123px); opacity: 0;">
+        <p class="full-width-image-block__subtitle subtitle2" tabindex="0">Auðlindagarður HS Orku</p>
+        <h1 class="full-width-image-block__title headline1" tabindex="0">Samfélag án sóunar</h1>
+        <div class="richtext full-width-image-block__text body1" tabindex="0">
+        <p>Auðlindagarðurinn er einstakur á heimsvísu. Hann boðar nýja tíma, nýja hugsun og hvetur til enn frekari þróunar á aukinni og bættri nýtingu á því sem frá jarðvarmaverum kemur.</p>
+        </div>
+
+        <div class="full-width-image-block__buttons">
+            <a href="/audlindagardurinn/" class="full-width-image-block__button button button--secondary " target="_self" title="Skoða vef Auðlindagarðsins">
+                <span class="button__text">Skoða vef Auðlindagarðsins</span>
+            </a>     
+            <a class="arrow-link full-width-image-block__arrow-link arrow-link--white " href="/hafdu-samband/" title="Hafðu samband">
+            <span class="arrow-link__icon">
+                <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.375 5.0625C15.375 5.32138 15.1651 5.53125 14.9063 5.53125L1 5.53125C0.741117 5.53125 0.531251 5.32138 0.531251 5.0625C0.531251 4.80362 0.741118 4.59375 1 4.59375L14.9063 4.59375C15.1651 4.59375 15.375 4.80362 15.375 5.0625Z" fill="#E5504A"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.3499 9.45014C10.1703 9.26366 10.1759 8.96692 10.3624 8.78735L14.2305 5.0625L10.3624 1.33765C10.1759 1.15808 10.1703 0.861334 10.3499 0.674856C10.5294 0.488377 10.8262 0.482778 11.0126 0.66235L15.2314 4.72485C15.3232 4.81321 15.375 4.93511 15.375 5.0625C15.375 5.18989 15.3232 5.31179 15.2314 5.40015L11.0126 9.46265C10.8262 9.64222 10.5294 9.63662 10.3499 9.45014Z" fill="#E5504A"></path>
+                </svg>
+            </span>
+            <span class="arrow-link__text">Hafðu samband</span>
+            </a>
+
+        </div>
+      </div>
+    </div>
+   
+    <div class="video-container" style="clip-path: polygon(372.667px 15%, 1539.33px 15%, 1539.33px 85%, 372.667px 85%);">
+      <video autoplay muted loop>
+        <source src="https://www.hsorka.is/media/02ok4sdy/audlindabg.mp4" type="video/mp4" />
+        <div class="full-width-image-block__overlay"></div>
+      </video>
+      <div class="full-width-image-block__overlay"></div>
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+</body>
+</html>
